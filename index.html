@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Prime</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>    
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fw-bold fs-1">Banco Prime</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold active">
+                        <a href="#sobre-o-banco" class="nav-link">
+                            <i class="bi bi-bank2 me-1"></i>
+                            Sobre o Banco
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#cartoes">
+                            <i class="bi bi-credit-card-fill me-1"></i>
+                            Cartões
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#investimentos">
+                            <i class="bi bi-graph-up-arrow me-1"></i>
+                            Investimentos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#emprestimos">
+                            <i class="bi bi-cash-coin"></i>
+                            Empréstimos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#abra-sua-conta">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Abra sua conta
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+</header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-banco">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block img-fluid" src="./images/piggy-3612928.jpg" alt="porquinho de ouro dinheiro">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block img-fluid" src="./images/analytics-3265840.jpg" alt="mulher notebook grafico up">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block img-fluid" src="./images/hourglass-1703349_1920.jpg" alt="anpoleta e dolar">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block img-fluid" src="./images/invest-1995438.jpg" alt="invest">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block img-fluid" src="./images/money-2696229.jpg" alt="relogio antigo e dinheiro">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/employment-office-2157225_1280.jpg" class="d-block w-100 rounded" alt="foto do espaço externo do banco">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span>o Banco</span></h2>
+                            <p>
+                                Lorem ipsum dolor  possimus vero consequuntur voluptatum accusamus sit animi tempora aperiam? Dolorem porro aspernatur deserunt.
+                            </p>
+                        <h3 class="section-title">Abra <span>a sua conta</span></h3>
+                        <p>
+                            Lorem ipsum dolor sit, earum voluptatum ex consequatur provident porro aut delectus maiores facere mollitia hic exercitationem blanditiis nam cupiditate! Quis, totam.
+                        </p>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>    
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cartoes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center bi bi-credit-card-fill">
+                        Prime <span>cartões</span>
+                    </h2>
+                </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        Crédito
+                    </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi iure assumenda quis nostrum aliquam doloremque omnis numquam unde, aspernatur, optio quibusdam, id voluptatum quaerat. Rem architecto officia tenetur vitae exercitationem.</p>
+                    <img src="https://cdn.pixabay.com/photo/2017/02/01/10/29/bank-2029480_1280.png" alt="cartao" class="d-block w-100 rounded mb-2">
+                </div>
+                <div class="col-md-4">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-credit-card-2-front-fill"></i>
+                        Débito
+                    </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi iure assumenda quis nostrum aliquam doloremque omnis numquam unde, aspernatur, optio quibusdam, id voluptatum quaerat. Rem architecto officia tenetur vitae exercitationem.</p>
+                    <img src="https://cdn.pixabay.com/photo/2016/05/03/12/19/credit-card-1369111_1280.png" alt="cartao" class="d-block w-100 rounded mb-2">
+                </div>
+                <div class="col-md-4">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="fas fa-shopping-cart"></i>
+                        Internacional
+                    </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi iure assumenda quis nostrum aliquam doloremque omnis numquam unde, aspernatur, optio quibusdam, id voluptatum quaerat. Rem architecto officia tenetur vitae exercitationem.</p>
+                    <img src="https://cdn.pixabay.com/photo/2016/04/01/11/00/bank-1300155_1280.png" alt="cartao" class="d-block w-100 rounded mb-2">
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="investimentos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        <i class="bi bi-graph-up-arrow me-1"></i>
+                        Prime <span class="text-colored">Investimentos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                        <ul class="nav nav-pills d-block d-md-flex">
+                            <li class="nav-item fw-bold">
+                                <a class="nav-link" href="#">Renda Fixa</a>
+                            </li>
+                            <li class="nav-item fw-bold">
+                                <a class="nav-link" href="#">Renda Variável</a>
+                            </li>
+                            <li class="nav-item fw-bold">
+                                <a class="nav-link" href="#">Fixa e Variável</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2 class="section-title">
+                            Renda Fixa
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, 
+                        </p>
+                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/01/05/00/15/chart-1953616_1280.jpg" alt="copo com moedas moedas com vegetação">
+                        <button type="submit" class="btn btn-success mt-3 fw-bold">Invista Agora</button>
+                    </div>
+                    <div class="col-md-4">
+                        <h2 class="section-title">
+                            Renda Variável
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, 
+                        </p>
+                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/01/12/16/16/growth-3078543_1280.png" alt="Grafico up sucesso">
+                        <button type="submit" class="btn btn-success mt-3 fw-bold">Invista Agora</button>
+                    </div>
+                    <div class="col-md-4">
+                        <h2 class="section-title">
+                            Fixa e Variável
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, 
+                        </p>
+                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/04/28/07/16/man-7956041_1280.jpg" alt="copo com moedas moedas com vegetação">
+                        <button type="submit" class="btn btn-success mt-3 fw-bold">Invista Agora</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="emprestimos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        <i class="bi bi-cash-coin"></i>
+                            Prime <span class="text-colored">Empréstimos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-emprestimos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#consignado" class="fw-bold text-start nav-link text-colored active">Consignado</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pessoal" class="fw-bold text-start nav-link text-colored">Pessoal</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#veiculos" class="fw-bold text-start nav-link text-colored">Veículos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#fgts" class="fw-bold text-start nav-link text-colored">Antecipação FGTS</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="col-md-10">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="consignado">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/pref.jpg" alt="prefeitura">
+                                            <h5 class="text-colored fw-bold">Prefeituras</h5>
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/westminster-palace-2892_1280.jpg" alt="Governos">
+                                            <h5 class="text-colored mt-2 fw-bold">Governos</h5>
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/warships-1017_1280.jpg" alt="Forças Armadas">
+                                            <h5 class="text-colored fw-bold">Forças Armadas</h5>
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/leipzig-6367607_1280.jpg" alt="Siape">
+                                            <h5 class="text-colored fw-bold">Siape</h5>
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/couple-3113574_1280.jpg" alt="INSS">
+                                            <h5 class="text-colored fw-bold">INSS</h5>
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="pessoal">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./images/savings-2789112_1280.jpg" alt="boleto">
+                                            <h5 class="text-colored fw-bold">Boleto</h5>
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="veiculos">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220_1280.jpg" alt="carro">
+                                            <h5 class="text-colored fw-bold">Carros</h5>
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/02/14/04/15/motorcycle-1198996_1280.jpg" alt="moto">
+                                            <h5 class="text-colored fw-bold">Motos</h5>
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/05/14/20/54/truck-3401529_1280.jpg" alt="Caminhões">
+                                            <h5 class="text-colored fw-bold">Caminhões</h5>
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/07/26/12/01/boat-4364637_1280.jpg" alt="barcos">
+                                            <h5 class="text-colored fw-bold">Barcos</h5>
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="fgts">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="https://www.gov.br/trabalho-e-previdencia/pt-br/servicos/empregador/fgtsdigital/noticias/fgts-digital-conheca-o-sistema/fgts-digital-1152x768.png" alt="fgts">
+                                            <h5 class="text-colored fw-bold">FGTS</h5>
+                                            <p>
+                                                Lorem ipsum, dolor sit amet consectetur.
+                                            </p>
+                                        </div>
+                                </div> 
+                                </div>
+                </div>
+            </div>
+        </section>
+        <section id="abra-sua-conta" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Abra <span class="text-colored">sua conta</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3"> 
+                                <label class="form-label fw-bold text-colored" for="nome">Seu Nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="email">Seu E-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="telefone">Seu Telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="mensagem">Sua Mensagem</label>
+                                <textarea class="form-control" required id="mensagem"></textarea>
+                                <button type="submit" class="btn btn-success mt-3 fw-bold">Enviar</button>
+                            </form>
+                    </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored ms-1 me-1"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua Query nº. 171, Bairro Ebac - São Paulo - SP</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
